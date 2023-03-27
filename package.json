@@ -1,0 +1,37 @@
+{
+  "name": "stuserve-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "set NODE_ENV=development & nodemon index.js",
+<<<<<<< HEAD
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prod": "set NODE_ENV=PRODUCTION & node index.js",
+    "start": "set NODE_ENV=production & node index.js"
+=======
+    "start": "set NODE_ENV=production & node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+>>>>>>> 42b62c980979d3852107528cb74c1c9beae558e2
+  },
+  "author": "Quric",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cloudinary": "^1.26.3",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.18.2",
+    "express-fileupload": "^1.2.1",
+    "google-auth-library": "^8.7.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^4.12.1",
+    "mongoose": "^5.13.5",
+    "nodemailer": "^6.6.3",
+    "socket.io": "^4.5.4",
+    "stripe": "^8.174.0",
+    "validator": "^13.6.0"
+  }
+}
